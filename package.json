@@ -1,11 +1,19 @@
 {
   "name": "sample-browserstack-local",
   "version": "1.0.0",
-  "description": "Sample project to try out BrowserStack local",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "test": "node tests/test.js"
   },
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "selenium-webdriver": "^3.0.0-beta-2",
+    "serve-favicon": "~2.3.0"
+  }
 }
