@@ -1,6 +1,14 @@
 language: node_js
 node_js:
   - "4.5.0"
+env:
+  global:
+    # BROWSERSTACK_ACCESSKEY
+    - secure: m4MlqNda8AU7nkaZA4dbytinbVNt6CgfrXdEf9sU2EMRF4QvauK7yj6oq3R8vvHnvNp6OdmmTYkt3NSLlep7QwbMlhhe2YwEewLicNmswNQ67WwoNSC8tEOtTDYbI5MuBhPY4PsC/xuwfTMtPMnNNeM7Lo1tbrevkvDlPwoI2aQpwITVa5ebaI371un2rNzxhqY9VWx0050q/ccfMRHOqAlmZfImQFo12i+RfJxqKig6q5mpfLpORkP1APkbRDUz5HJg436+f8EAHUA1HIpzUe5Ez+EDEglIaOx2BfaPsVb6YaGgz7zIxidzytCr/qjK1b0aTwCN11WqBONcGuzGdw==
+
+    # BROWSERSTACK_USER
+    - secure: Aq0lmyRJv66hTK4TwFSY842+Xkmnhce/q97YcF7FX7m2uEUyPP+Q5JSGvloYNCWAy7M87V4yTcWQDPlTE/QSRnKQ/K0eSMhbjWajOMNMrsVDs94Wcqa848jm+IOh5ARrcl5qhJnavhrIrWMPU6AMDL6JKiI6h8YaW0RcfFA0Dm+mdETQ/0uShuUEx/nfD6+J/Efh0x4RLm/YeC4b+Jjl9mevzFrU3ZpvV/Rw8VzQ1Jgda8mEJSNQH5QNQNe3zxWAdzOCqj9fDN26ld+ZYWIi/uD57kqFIpkRvm9GCK2pAv+0kA0CnzAJStFd3ncuvRJUDYQnHuQNtKk3eFEBQIPFFw==
+
 build:
   ci:
     # Get and extract BrowserStackLocal
